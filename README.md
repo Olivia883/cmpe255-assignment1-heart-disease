@@ -1,67 +1,68 @@
-# cmpe255-assignment1-heart-disease
+# CMPE 255 - Assignment 1
+## Heart Disease
 
-1. Overview:
-This project applies the CRISP‑DM methodology to the Kaggle Heart Disease dataset using an AI coding assistant (ChatGPT Code Interpreter). The goal is to build a predictive model that determines whether a patient is likely to have heart disease based on clinical features.
-This assignment includes:
-    • Full CRISP‑DM workflow
-    • EDA, preprocessing, modeling, evaluation
-    • Multiple ML algorithms
-    • A YouTube walkthrough
-    • Replication of instructor‑provided experiments (Part 2)
-   
-2. Dataset:
-   • Name: Heart Disease Dataset
-   • Source: Kaggle
-   • Target Variable: target (1 = heart disease, 0 = no heart disease)
-   • Type: Binary classification
+## Project Overview
 
-3. CRISP‑DM Phases
+This project applies the CRISP-DM methodology to the Kaggle
+Heart Disease dataset.
 
-Business Understanding
-  - Heart disease is a major health issue. The goal is to build a model that helps identify high‑risk patients.
+## Dataset
 
-My paraphrase: Predict heart disease early so doctors can help patients sooner.
+[Kaggle Heart Disease Dataset](data/heart.csv)
 
-Data Understanding
-  - Looked at columns, summary stats, missing values, and basic patterns.
+## CRISP-DM Phases
+1. Business Understanding
+2. Data Understanding
+3. Data Preparation
+4. Modeling
+5. Evaluation
+6. Deployment
 
-Data Preparation
-  - Cleaned data, encoded categories, scaled features, and split into train/test sets.
+## Key Results
 
-EDA + Visualization
-  - Created plots to understand relationships and correlations.
+Logistic Regression was selected as the primary model based on
+its overall balance of predictive performance, interpretability,
+and computational efficiency.
 
-Outlier Analysis
-  - Checked for unusual values and decided whether to keep or remove them.
+## Visualizations
 
-Feature Engineering
-  - Selected important features and created any helpful new ones.
+### Target Distribution
+![Target Distribution](target_distribution.png)
 
-Modeling:
-Trained multiple models:
-  • Logistic Regression
-  • Random Forest
-  • XGBoost
-  • SVM
-  • KNN
+### Boxplot
+![Boxplot](boxplot.png)
 
-Evaluation
-Compared models using:
-  • Accuracy
-  • Precision
-  • Recall
-  • F1
-  • ROC‑AUC
-  • Confusion Matrix
+### Correlation Heatmap
+![Correlation Heatmap](correlation_heatmap.png)
 
-Final Recommendation
-Summarized best model, limitations, and future improvements.
+### Mutual Information
+![Mutual Information](mutual_feature.png)
 
-4. Files in This Repository
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
 
-data/                → dataset
-code/                → preprocessing, modeling, evaluation scripts  
-images/              → plots and visualizations  
-transcripts/         → ChatGPT session  
-assignment_part2/    → replicated experiments  
-video/               → YouTube link (or text file with link)
+### ROC Curve
+![ROC Curve](roc_curve.png)
+
+### Precision-Recall Curve
+![Precision Recall](recall_curve.png)
+
+### Model Comparison
+![Model Comparison](model_comparison.png)
+
+## Repository Contents
+
+- `code/` - Python preprocessing, modeling, and evaluation scripts
+- `data/` - Heart Disease dataset
+- `report/` - final Assignment 1 report
+- `transcripts/` - ChatGPT session transcript
+
+## YouTube Walkthrough
+
+[Insert YouTube link here]
+
+## Kaggle Resources
+
+[Dataset](https://www.kaggle.com/datasets/data855/heart-disease/data)
+
+[Code](https://www.kaggle.com/datasets/data855/heart-disease/code)
