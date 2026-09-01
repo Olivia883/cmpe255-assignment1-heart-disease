@@ -13,6 +13,3 @@ Projects:
 
 Source:
 https://github.com/dlmastery/data_science_examples
-
-The implementations intentionally use the professor's prompts as the
-requirements while making reasonable, compute-friendly design choices.
