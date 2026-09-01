@@ -1,0 +1,4 @@
+The goal of this small language model is to demonstrate an autoregressive
+transformer in a constrained environment. The model predicts the next
+character from previous characters. A tiny corpus is enough to demonstrate
+training, validation loss, sampling, and an interactive chatbot.
