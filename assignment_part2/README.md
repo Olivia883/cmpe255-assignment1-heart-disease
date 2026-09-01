@@ -1,21 +1,20 @@
-# 00 — Dynamic Todo Workspace
+# 02 — Nano LLM Transformer
 
 ## Goal
-Reproduce the professor's end-to-end dynamic todo application prompt.
-
-## Included
-- Express REST API
-- Server-Sent Events (SSE) updates
-- SQLite persistence
-- Browser UI
-- Add, complete, delete, and filter tasks
-- Simple productivity statistics
-- Design document
+Build a small autoregressive transformer/chatbot that can train on a
+laptop-friendly corpus and expose training metrics.
 
 ## Run
 ```bash
-npm install
-npm run dev
+pip install -r requirements.txt
+python train.py
+python chat.py
 ```
 
-Open http://localhost:5000
+Optional:
+```bash
+streamlit run dashboard.py
+```
+
+The model is deliberately tiny so the experiment remains practical in a
+limited-compute environment.
