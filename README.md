@@ -33,7 +33,7 @@ and computational efficiency.
 
 ## YouTube Walkthrough
 
-[Insert YouTube link here]
+[(https://youtu.be/lt8ThiGQcCw)]
 
 ## Kaggle Resources
 
