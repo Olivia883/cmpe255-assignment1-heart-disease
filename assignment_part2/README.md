@@ -1,7 +1,7 @@
 # Part 2 — Replicated Data Science Experiments
 
-This folder contains student-sized reproductions of the first six projects
-listed in the professor-provided `data_science_examples` repository.
+This folder contains replications of the first six projects
+listed in the -provided `data_science_examples` repository link.
 
 Projects:
 1. 00_dynamic_todo_workspace
