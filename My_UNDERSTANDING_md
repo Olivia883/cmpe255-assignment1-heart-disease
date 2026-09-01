@@ -1,1 +1,15 @@
+Part 1 - My Understanding (Paraphrase Output)
 
+In Part 1, I built a full end‑to‑end CRISP‑DM project using the heart disease dataset.
+The goal was to predict whether a patient might have heart disease based on their medical features.
+
+I explored the dataset, checked for missing values, and looked at correlations to understand which features 
+mattered. Then I cleaned and prepared the data by encoding, scaling, and splitting it into training and testing
+sets.
+
+After that, I trained several models, like logistic regression and random forest, 
+and compared their performance. I evaluated them using accuracy, confusion matrices, and 
+ROC curves to see how well each model predicted heart disease.
+
+Overall, Part 1 shows the complete data‑science pipeline—from understanding the problem to preparing the data,
+training models, and evaluating results. All code and plots are included in my GitHub repository.
