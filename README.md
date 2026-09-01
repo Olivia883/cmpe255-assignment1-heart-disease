@@ -24,32 +24,6 @@ Logistic Regression was selected as the primary model based on
 its overall balance of predictive performance, interpretability,
 and computational efficiency.
 
-## Visualizations
-
-### Target Distribution
-![Target Distribution](target_distribution.png)
-
-### Boxplot
-![Boxplot](boxplot.png)
-
-### Correlation Heatmap
-![Correlation Heatmap](correlation_heatmap.png)
-
-### Mutual Information
-![Mutual Information](mutual_feature.png)
-
-### Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
-
-### ROC Curve
-![ROC Curve](roc_curve.png)
-
-### Precision-Recall Curve
-![Precision Recall](recall_curve.png)
-
-### Model Comparison
-![Model Comparison](model_comparison.png)
-
 ## Repository Contents
 
 - `code/` - Python preprocessing, modeling, and evaluation scripts
